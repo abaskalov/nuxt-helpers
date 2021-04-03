@@ -19,6 +19,7 @@
   "homepage": "https://github.com/hex735184/nuxt-helpers#readme",
   "devDependencies": {
     "@nuxt/types": "^2.15.4",
+    "@types/vuelidate": "^0.7.14",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "decimal.js-light": "^2.5.1",
@@ -29,6 +30,7 @@
     "eslint-plugin-unused-imports": "^1.1.0",
     "nuxt": "^2.15.4",
     "prettier": "^2.2.1",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "vuelidate": "^0.7.6"
   }
 }
