@@ -32,5 +32,6 @@
     "prettier": "^2.2.1",
     "typescript": "^4.2.3",
     "vuelidate": "^0.7.6"
-  }
+  },
+  "dependencies": {}
 }
