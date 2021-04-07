@@ -12,6 +12,6 @@ export const SaveQueryParamMiddleware = (param: string): Middleware =>
     const savedValue = $storage.getUniversal(paramValue);
 
     if (queryValue && queryValue !== savedValue) {
-      $storage.setUniversal(paramValue, queryValue);
+      $storage.setCookie(paramValue, queryValue);
     }
   };

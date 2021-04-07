@@ -8,7 +8,7 @@ var SaveQueryParamMiddleware = function (param) {
         var queryValue = query[paramValue];
         var savedValue = $storage.getUniversal(paramValue);
         if (queryValue && queryValue !== savedValue) {
-            $storage.setUniversal(paramValue, queryValue);
+            $storage.setCookie(paramValue, queryValue);
         }
     };
 };
